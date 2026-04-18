@@ -1,0 +1,9 @@
+Model,Project,Precision,Recall,F1,API_Cost_USD
+GPT-4o,MediaStore,0.49,0.75,0.59,0.008
+GPT-4o,TeaStore,0.82,0.93,0.87,0.012
+GPT-4o,TEAMMATES,0.86,0.92,0.89,0.028
+GPT-4o,BigBlueButton,0.74,0.60,0.66,0.016
+GPT-4o,JabRef,0.94,0.83,0.88,0.014
+GPT-4.1,MediaStore,0.53,0.83,0.81,0.009
+GPT-4.1,TeaStore,0.89,0.93,0.91,0.014
+...
