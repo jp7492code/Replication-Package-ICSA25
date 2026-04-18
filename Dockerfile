@@ -9,3 +9,4 @@ ENV OPENAI_ORG_ID=""
 ENV OLLAMA_HOST=http://localhost:11434
 
 ENTRYPOINT bash -c "cat README.md && bash"
+
