@@ -2,7 +2,7 @@
 
 # Replication Package for "Enabling Architecture Traceability by LLM-based Architecture Component Name Extraction"
 
-by Dominik Fuchß, Haoyu Liu, Tobias Hey, Jan Keim, and Anne Koziolek
+by Johnathan Pham, Max Nanasy, Psy
 
 ## Requirements
 The requirements are defined in [INSTALL.md](INSTALL.md).
