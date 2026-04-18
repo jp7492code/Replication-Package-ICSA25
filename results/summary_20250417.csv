@@ -1,9 +1,63 @@
-Model,Project,Precision,Recall,F1,API_Cost_USD
-GPT-4o,MediaStore,0.49,0.75,0.59,0.008
-GPT-4o,TeaStore,0.82,0.93,0.87,0.012
-GPT-4o,TEAMMATES,0.86,0.92,0.89,0.028
-GPT-4o,BigBlueButton,0.74,0.60,0.66,0.016
-GPT-4o,JabRef,0.94,0.83,0.88,0.014
-GPT-4.1,MediaStore,0.53,0.83,0.81,0.009
-GPT-4.1,TeaStore,0.89,0.93,0.91,0.014
-...
+Model,Project,Precision,Recall,F1
+GPT-4o mini,MediaStore,0.49,0.52,0.50
+GPT-4o mini,TeaStore,0.95,0.67,0.78
+GPT-4o mini,TEAMMATES,0.71,0.90,0.80
+GPT-4o mini,BigBlueButton,0.71,0.64,0.68
+GPT-4o mini,JabRef,0.89,1.00,0.94
+GPT-4o,MediaStore,0.49,0.52,0.50
+GPT-4o,TeaStore,0.96,0.67,0.79
+GPT-4o,TEAMMATES,0.71,0.90,0.80
+GPT-4o,BigBlueButton,0.74,0.77,0.75
+GPT-4o,JabRef,0.89,1.00,0.94
+GPT-4 Turbo,MediaStore,0.45,0.40,0.43
+GPT-4 Turbo,TeaStore,0.96,0.71,0.82
+GPT-4 Turbo,TEAMMATES,0.71,0.90,0.80
+GPT-4 Turbo,BigBlueButton,0.71,0.66,0.69
+GPT-4 Turbo,JabRef,0.89,1.00,0.94
+GPT-4,MediaStore,0.49,0.52,0.50
+GPT-4,TeaStore,0.96,0.71,0.82
+GPT-4,TEAMMATES,0.71,0.90,0.80
+GPT-4,BigBlueButton,0.63,0.84,0.72
+GPT-4,JabRef,0.89,0.99,0.94
+GPT-3.5 Turbo,MediaStore,0.49,0.52,0.50
+GPT-3.5 Turbo,TeaStore,0.96,0.67,0.79
+GPT-3.5 Turbo,TEAMMATES,0.71,0.90,0.80
+GPT-3.5 Turbo,BigBlueButton,0.75,0.54,0.63
+GPT-3.5 Turbo,JabRef,0.89,1.00,0.94
+Codellama 13b,MediaStore,0.81,0.52,0.63
+Codellama 13b,TeaStore,0.96,0.67,0.79
+Codellama 13b,TEAMMATES,0.66,0.49,0.56
+Codellama 13b,BigBlueButton,0.05,0.32,0.08
+Codellama 13b,JabRef,0.89,0.99,0.94
+Llama 3.1 8b,MediaStore,0.49,0.52,0.50
+Llama 3.1 8b,TeaStore,0.21,0.71,0.33
+Llama 3.1 8b,TEAMMATES,0.66,0.34,0.45
+Llama 3.1 8b,BigBlueButton,0.73,0.47,0.57
+Llama 3.1 8b,JabRef,0.89,1.00,0.94
+Llama 3.1 70b,MediaStore,0.48,0.50,0.49
+Llama 3.1 70b,TeaStore,0.62,0.80,0.70
+Llama 3.1 70b,TEAMMATES,0.62,0.31,0.41
+Llama 3.1 70b,BigBlueButton,0.62,0.43,0.51
+Llama 3.1 70b,JabRef,0.89,1.00,0.94
+Summary Table (Weighted Average F1)
+
+Model,Weighted_F1
+GPT-4o mini,0.85
+GPT-4o,0.86
+GPT-4 Turbo,0.86
+GPT-4,0.86
+GPT-3.5 Turbo,0.85
+Codellama 13b,0.71
+Llama 3.1 8b,0.68
+Llama 3.1 70b,0.68
+Per-Project F1 Summary
+
+Model,MS,TS,TM,BBB,JR
+GPT-4o mini,0.50,0.78,0.80,0.68,0.94
+GPT-4o,0.50,0.79,0.80,0.75,0.94
+GPT-4 Turbo,0.43,0.82,0.80,0.69,0.94
+GPT-4,0.50,0.82,0.80,0.72,0.94
+GPT-3.5 Turbo,0.50,0.79,0.80,0.63,0.94
+Codellama 13b,0.63,0.79,0.56,0.08,0.94
+Llama 3.1 8b,0.50,0.33,0.45,0.57,0.94
+Llama 3.1 70b,0.49,0.70,0.41,0.51,0.94
