@@ -6,7 +6,7 @@
 
 ## Quickstart
 
-### Docker (Easiest)
+### Docker
 ```bash
 docker run -it --rm ghcr.io/ardoco/icsa25
 mvn -q test -Dsurefire.failIfNoSpecifiedTests=false -Dtest=TraceLinkEvaluationSadSamViaLlmCodeIT
